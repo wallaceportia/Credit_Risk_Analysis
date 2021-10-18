@@ -6,23 +6,23 @@ Fast Lending a peer to peer lending company has decided to use 'Machine Learning
 
 *A.Oversampling*
 
-      1.Naive Random Oversampling
+   1.Naive Random Oversampling
 
-      2.Smote
+   2.Smote
 
 *B.Undersampling*
 
-      3. ClusterCentroids
+   3. ClusterCentroids
 
 *C. Combinatorial*
 
-      4.Smoteenn
+   4.Smoteenn
 
 *D.Ensemble Classifiers*
 
-      5.RandomForest
+   5.RandomForest
   
-      6.AdaBoosting
+   6.AdaBoosting
   
  Based on the following results we will choose which of these models may be the most viable to implement  
 	

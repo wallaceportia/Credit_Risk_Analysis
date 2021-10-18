@@ -51,36 +51,77 @@ The recall score for high risk loan is .68 or 68% and the sensitivity for low ri
 
 ###### 2. Smote
 
-a.	Accuracy Score
-b.	Precision Score
-c.	Recall Score
+![Smote Accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smote_accuracy.PNG)
+a.Accuracy Score
 
-2.	Undersampling
-iii.	ClusterCentroids
-a.	Accuracy Score
+![]()
 b.	Precision Score
-c.	Recall Score
 
-3.	Combinatorial 
-iv.	Smotteen
-a.	Accuracy Score
-b.	Precision Score
+![]()
+
 c.	Recall Score
 
 
-4.	Ensemble Classifiers 
-v.	Randomforest
-a.	Accuracy Score
-b.	Precision Score
+###### 3.ClusterCentroids
+
+![]()
+
+a.Accuracy Score
+
+![]()
+
+b.Precision Score
+
+![]()
+
 c.	Recall Score
 
-vi.	AdaBoosting
-a.	Accuracy Score
-b.	Precision Score
-c.	Recall Score
+###### 4.Smotteen
 
-o	
-•	Summary:
-o	A pronounced implance between the sensitivity and precision will yield a low F1 score
+![]()
+
+a.Accuracy Score
+
+![]()
+b.Precision Score
+
+
+![]()
+c.Recall Score
+
+
+
+###### 5.Randomforest
+
+![]()
+
+a.Accuracy Score
+
+![]()
+
+b.Precision Score
+
+![]()]
+
+c.Recall Score
+
+###### 6.AdaBoosting
+
+![]()
+
+a.Accuracy Score
+
+![]()
+
+b.Precision Score
+
+![]()
+
+c.Recall Score
+
+	
+## Summary:
+
+A pronounced implance between the sensitivity and precision will yield a low F1 score
 o	There is a summary of the results (2 pt)
 o	There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)

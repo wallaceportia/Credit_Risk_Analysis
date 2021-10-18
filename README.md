@@ -36,13 +36,13 @@ a.Accuracy Score
 	
 The accuracy score for predicting high risk loan is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as         it is the easiest classification metric to understand however it does not reveal the underlying disribution of respone values.
 	
-![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_cm.png)
+![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20classification.PNG)
 
 b.Precision Score
 	
 The precision score for this model high risk loans is .01 or 1% and the precision for low risk loans is 1.00
 
-![Naive Sensitivity](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_classification.PNG)
+
 
 c.Recall Score
 

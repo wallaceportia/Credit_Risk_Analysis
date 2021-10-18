@@ -32,7 +32,7 @@ Fast Lending a peer to peer lending company has decided to use 'Machine Learning
 
 a.Accuracy Score
         
-![Naive_Oversampling](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_accuracy.png)
+![Naive_Oversampling](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20accuracy.PNG)
 	
 The accuracy score for predicting high risk loan is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as         it is the easiest classification metric to understand however it does not reveal the underlying disribution of respone values.
 	

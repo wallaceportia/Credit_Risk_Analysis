@@ -33,7 +33,7 @@ Fast Lending a peer to peer lending company has decided to use 'Machine Learning
         !['Naive_Oversampling'](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_accuracy.PNG)
 	
         b.Precision Score
-	![]()
+	![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_cm.PNG)
 	
         c.Recall Score
 	![]()

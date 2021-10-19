@@ -2,7 +2,7 @@
 
 ## Overview of the loan prediction risk analysis:
 
-Fast Lending a peer to peer lending company has decided to use 'Machine Learning' to predict credit risk.  They would like to use Machine Learning as they believe it will provide a quicker and more reliable lending experience.  The idea is that it would lead to choosing good candidates for loans and in turn lower default rates. In conjunction with the lead Data Scientist, Jill, we will build several machine learning algorithms to predict credit risk. The resampling techinque wil be Oversampling, Undersampling, Combinatorial and Ensemble Classifiers. The 6 techniques that will be used are:
+Fast Lending a peer to peer lending company has decided to use 'Machine Learning' to predict credit risk.  They would like to use Machine Learning as they believe it will accomplish a more reliable lending experience, by miminimizing high risk loans.  The idea is that it would lead to choosing good candidates for loans and in turn lower default rates. In conjunction with the lead Data Scientist, Jill, we will build several machine learning algorithms to predict credit risk. The resampling techinques which be used are: Oversampling, Undersampling, Combinatorial and Ensemble Classifiers. The 6 techniques that will be used are:
 
 *A.Oversampling*
 
@@ -34,9 +34,11 @@ a.Accuracy Score
         
 ![Naive_Oversampling](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20accuracy.PNG)
 	
-The accuracy score for predicting high risk loan is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as         it is the easiest classification metric to understand however it does not reveal the underlying disribution of respone values.
+The accuracy score for predicting low risk loan is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as         it is the easiest classification metric to understand however it does not reveal the underlying disribution of respone values. For a deeper understanding we will examine the metrics produced by the classification report
 	
 ![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20classification.PNG)
+
+![Naive CM]()
 
 b.Precision Score
 	

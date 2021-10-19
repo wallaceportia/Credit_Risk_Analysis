@@ -69,7 +69,7 @@ c.	Recall Score
 
 ###### 3.ClusterCentroids
 
-![]()
+![ClusterCentroid accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_accuracy.PNG)
 
 a.Accuracy Score
 

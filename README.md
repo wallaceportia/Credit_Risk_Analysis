@@ -38,7 +38,7 @@ The accuracy score for predicting low risk loan is 0.655 or 66%. This model is n
 	
 ![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20classification.PNG)
 
-![Naive CM]()
+![Naive CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_cm.PNG)
 
 b.Precision Score
 	

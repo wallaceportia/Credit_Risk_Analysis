@@ -56,7 +56,8 @@ The recall score for high risk loan is .68 or 68% and the sensitivity for low ri
 ![Smote Accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smote_accuracy.PNG)
 a.Accuracy Score
 
-![]()
+![Smote Accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smote_accuracy.PNG)
+
 b.	Precision Score
 
 ![]()

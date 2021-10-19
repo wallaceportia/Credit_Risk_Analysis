@@ -60,7 +60,9 @@ a.Accuracy Score
 
 b.	Precision Score
 
-![]()
+![Smote Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smote_classification.PNG)
+
+![Smote CM]()
 
 c.	Recall Score
 

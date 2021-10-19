@@ -77,7 +77,7 @@ a.Accuracy Score
 
 b.Precision Score
 
-![]()
+![](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_cm.PNG)
 
 c.	Recall Score
 

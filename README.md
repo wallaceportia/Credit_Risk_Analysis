@@ -102,7 +102,7 @@ a.Accuracy Score
 
 b.Precision Score
 
-![RandomForest CM]()
+![RandomForest CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/randomForest_cm.PNG)
 
 c.Recall Score
 

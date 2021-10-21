@@ -96,33 +96,43 @@ c.Recall Score: The sensitivity score for __low risk loans is 0.57 or 57%__ and 
 
 ![RandomForest Accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/randomForest_accuracy.PNG)
 
-a.Accuracy Score
+a.Accuracy Score: The accuracy score for the RandomForest model is __.67 or 67%__
 
 ![RandomForest Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/randomForest_classification.PNG)
 
-b.Precision Score
+b.Precision Score: The precision score for __1.00 or 100% for low risk loans and 0.90 or 90% for high risk loans__ This score appears to be highly accurate on both metrics however careful consideration must be given to the sensitivity score
 
 ![RandomForest CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/randomForest_cm.PNG)
 
-c.Recall Score
+c.Recall Score: The sensitivity score for __low risk loans is 1.00 or 100%__ but the recall for __high risk loans is .35 %__ which is very poor.
+Also the __f1 score for low risk loans is on 1.00 or 100%__ and for __high risk loans it is only .50 or 50% 
 
 ###### 6.AdaBoosting
 
 ![Ada Boosting Accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/Ada_accuracy.PNG)
 
-a.Accuracy Score
+a.Accuracy Score: The accuracy score using the _AdaBoosting Model_ is __99.6 or 100%__
 
 ![Ada Boosting Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/Ada_classification.PNG)
 
-b.Precision Score
+b.Precision Score: The precision score for __low risk loans is 1.00 or 100%__ and the precision for __high risk loans is .88 or 88%__ Here we see that the boosting a technique to combine a set of weak learners into a strong learner.Boosting trains a sequence of weak models so that each model learns from the errors of the previous model, and the models form an ensemble. This may be the reason we have seen such an improvement in both the accuracy score and the precision scores.  It is imperative however that we also consider the sensitivity score.
 
-![Ada Boosting CM]()
+![Ada Boosting CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/Ada_cm.PNG)
 
 c.Recall Score
-
+The recall on __low risk loans is 1.00 or 100%__ however this drops off significantly for __high risk loans the sensitivity is .38 or 38%__ this is an unacceptable score.
+The F1 score for __low risk loans is 1.00 or 100%__ however this drops off significantly for __high risk loans to .53%__
 	
 ## Summary:
 
-A pronounced implance between the sensitivity and precision will yield a low F1 score
-o	There is a summary of the results (2 pt)
+It is fair to say that none of the models performed optimally , however some were stronger than others. For the models that fell under the umbrella of oversampling: __Naive Random Oversampling and Smote__, the level of accuracy was not very good.  We saw that overfitting towards the data for low risk loans produced high precision for low risk loans but very poor for high risk loans.  Further to this we saw that the sensitivity score was also not very high.  There was a large difference between the F1 score which signifies a huge imbalnce bewtween the precision and sensitity.
+
+The performance of the undersampling models __ClusterCentroids__ also was not very stellar.  We also saw overfitting towards the low risk loans. We saw an imporvement in sensitivity for high risk loans but it the sensitivity for low risk loans tanked.  The F1 score also revealed a huge desparity between precision and accuracy
+
+For the combinatorial model __Smoteenn__ The accuracy did not see any marked improvement.  There was still overfitting towards low risk loans and the precisions score for high risk loans was very unsuccessful.  The sesitivity score also improved for high risk loans in this model but also at the expense of the low risk score falling to 57%.  
+
+Ensamble classifiers: Randomforest and AdaBoosting, for the Rando
+	
+ 
+
 o	There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)

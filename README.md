@@ -34,7 +34,7 @@ a.Accuracy Score
         
 ![Naive_Oversampling](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20accuracy.PNG)
 	
-The accuracy score compares the actual outcome(y-values) from the test against the models' predicted values.  The acuracy score is the percentage of predictions that are correct. The accuracy score for this model is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as it is the easiest classification metric to understand however it does not reveal the underlying disribution of response values. For a deeper understanding we will examine the metrics produced by the classification report
+The accuracy score compares the actual outcome(y-values) from the test against the models' predicted values.  The accuracy score is the percentage of predictions that are correct. The accuracy score for this model is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as it is the easiest classification metric to understand however it does not reveal the underlying disribution of response values. For a deeper understanding we will examine the metrics produced by the classification report
 	
 ![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20classification.PNG)
 
@@ -42,7 +42,7 @@ b.Precision Score: The precision score indicates to us how accurate the model is
 
 ![Naive CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive_random_cm.PNG)
 
-c.Recall Score: The recall score indicates the proportion of actual positives which were correctly classified. That is when the actual value is positive, how often is the prediction corrrect. The recall for __low risk loans is .68 or 68%__. The sensitivity for __hight risk loans is lower at .63 or 63%__ 
+c.Recall Score: The recall score indicates the proportion of actual positives which were correctly classified. That is when the actual value is positive, how often is the prediction correct. The recall for __low risk loans is .68 or 68%__. The sensitivity for __high risk loans is lower at .63 or 63%__ 
 The recall score for high risk loan is .68 or 68% and the sensitivity for low risk loans is .63 or 63%.
 
 It should be mentioned that the __F1 score__ which is the combination of precision and recall is very low for high risk loans at __0.02 or 2%__  

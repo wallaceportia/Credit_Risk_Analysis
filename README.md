@@ -69,24 +69,26 @@ a.Accuracy Score: The accuracy score for the _ClusterCentroid_ model is __0.66 o
 
 ![ClusterCentroid Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_classification.PNG)
 
-b.Precision Score: The precision score for __low risk loans is 1.00 or 100%__ but the precision for __high risk loans is only .01 or 1%__. This model seems to be also overfitting for low risk loans.  
+b.Precision Score: The precision score for __low risk loans is 1.00 or 100%__ but the precision for __high risk loans is only .01 or 1%__. This model seems to be also overfitting for low risk loans. Out of 10,410 loans that predicted as high risk loans only 70 of them were actually high risk loans
 
-![](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_cm.PNG)
+![ClusterCentroid CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_cm.PNG)
 
-c.Recall Score: However the sensitivity for 
+c.Recall Score: The sensitivity for __low risk loans is .40 or 40%__ and __0.69 or 69% for high risk loans__. There seems to be a greater sensitivity to high risk loans in this model most likely because this is is an undersampling techinique, wherein all of the data for the miniority class the (high risk loans)is being kept, while decreasing the size of the majority class (low risk loans).
+The F1 score for for low risk loans is __0.57__ and for high risk loans is __0.01__ which is extreamly low.
 
-###### 4.Smotteen
+###### 4.Smoteenn
 
-![]()
+![Smoteenn accuracy]()
 
-a.Accuracy Score
+a.Accuracy Score: The accuracy score for the _Smoteenn Model_ is __0.54__ or 54% 
 
-![]()
-b.Precision Score
+![Smoteenn Classification]()
 
+b.Precision Score: The precision for __low risk loans is 1.00 or 100%__,this is indicative of overfitting.  The precision for __high risk loans is 0.01 or 1%__ 
 
-![]()
-c.Recall Score
+![Smoteenn CM]()
+
+c.Recall Score: The sensitivity score for __low risk loans is 0.57 or 57%__ and the sensitivity score for __high risk loans is 0.72 or 72%__. The sensitivity score for this model also might have been improved because _Smoteenn_ sampling combines both over-sampling and under-sampling which would increase the representation of the high risk loans dataset.  However when we look at the F1 score we see that the score for __high risk loans is 0.02 or 20% is very low__ and the score for __low risk loans is .74%
 
 
 

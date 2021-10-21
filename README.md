@@ -98,7 +98,7 @@ c.Recall Score: The sensitivity score for __low risk loans is 0.57 or 57%__ and 
 
 a.Accuracy Score
 
-![RandomForest Classification]()
+![RandomForest Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/randomForest_classification.PNG)
 
 b.Precision Score
 

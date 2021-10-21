@@ -67,7 +67,7 @@ c.Recall Score: The sensitivity for low risk loans is __.69 or 69%__ but this fa
 
 a.Accuracy Score: The accuracy score for the _ClusterCentroid_ model is __0.66 or 66%__. 
 
-![ClusterCentroid Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_classification.PNG)
+![ClusterCentroid Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/cluster_classificatio.PNG)
 
 b.Precision Score: The precision score for __low risk loans is 1.00 or 100%__ but the precision for __high risk loans is only .01 or 1%__. This model seems to be also overfitting for low risk loans. Out of 10,410 loans that predicted as high risk loans only 70 of them were actually high risk loans
 

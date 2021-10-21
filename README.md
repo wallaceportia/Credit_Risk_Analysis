@@ -78,7 +78,7 @@ The F1 score for for low risk loans is __0.57__ and for high risk loans is __0.0
 
 ###### 4.Smoteenn
 
-![Smoteenn accuracy]()
+![Smoteenn accuracy](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smoteenn_accuracy.PNG)
 
 a.Accuracy Score: The accuracy score for the _Smoteenn Model_ is __0.54__ or 54% 
 

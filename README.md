@@ -86,7 +86,7 @@ a.Accuracy Score: The accuracy score for the _Smoteenn Model_ is __0.54__ or 54%
 
 b.Precision Score: The precision for __low risk loans is 1.00 or 100%__,this is indicative of overfitting.  The precision for __high risk loans is 0.01 or 1%__ 
 
-![Smoteenn CM]()
+![Smoteenn CM](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smoteenn_cm.PNG)
 
 c.Recall Score: The sensitivity score for __low risk loans is 0.57 or 57%__ and the sensitivity score for __high risk loans is 0.72 or 72%__. The sensitivity score for this model also might have been improved because _Smoteenn_ sampling combines both over-sampling and under-sampling which would increase the representation of the high risk loans dataset.  However when we look at the F1 score we see that the score for __high risk loans is 0.02 or 20% is very low__ and the score for __low risk loans is .74%
 

@@ -6,23 +6,23 @@ Fast Lending a peer to peer lending company has decided to use 'Machine Learning
 
 *A.Oversampling*
 
-   1.Naive Random Oversampling
+  1.Naive Random Oversampling
 
-   2.Smote
+  2.Smote
 
 *B.Undersampling*
 
-   3. ClusterCentroids
+  3. ClusterCentroids
 
 *C. Combinatorial*
 
-   4.Smoteenn
+  4.Smoteenn
 
 *D.Ensemble Classifiers*
 
-   5.RandomForest
+  5.RandomForest
   
-   6.AdaBoosting
+  6.AdaBoosting
   
  Based on the following results we will choose which of these models may be the most viable to implement  
 	
@@ -131,8 +131,9 @@ The performance of the undersampling models __ClusterCentroids__ also was not ve
 
 For the combinatorial model __Smoteenn__ The accuracy did not see any marked improvement.  There was still overfitting towards low risk loans and the precisions score for high risk loans was very unsuccessful.  The sesitivity score also improved for high risk loans in this model but also at the expense of the low risk score falling to 57%.  
 
-Ensamble classifiers: Randomforest and AdaBoosting, for the Rando
+Ensamble classifiers: __Randomforest and AdaBoosting__, for the Randomforest classifier the accuracy was moderate however the precision score for both the high risk and low risk loans was on par with each other both scoring very high and would have appeared that the issue of overfitting was taken care of.  This idea however was not seen in the poor performance of the sensitivity for high risk loans.  The AdaBoosting classifier produced the highest accuracy of _100%_ The precision for both low risk and high risk loans was good at 100% and 88% respectively.  However this was deninished by the weak sensitivity for high risk loans.
 	
  
+###### Recommendation
 
-o	There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+The team with along with lead Data Scientist Jill have decided that not of these models are ready for adoption.  To many high risk loans will be accepted and thereby causing a loss to the bank or financial institution.  Therefore to ensure that our company maintains it's trustworthiness we would suggest a stronger and better model be developed; possibly take a look at deep neuro networks!

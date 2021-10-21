@@ -82,7 +82,7 @@ The F1 score for for low risk loans is __0.57__ and for high risk loans is __0.0
 
 a.Accuracy Score: The accuracy score for the _Smoteenn Model_ is __0.54__ or 54% 
 
-![Smoteenn Classification]()
+![Smoteenn Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/smoteenn_classification.PNG)
 
 b.Precision Score: The precision for __low risk loans is 1.00 or 100%__,this is indicative of overfitting.  The precision for __high risk loans is 0.01 or 1%__ 
 

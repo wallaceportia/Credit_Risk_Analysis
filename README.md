@@ -6,23 +6,23 @@ Fast Lending a peer to peer lending company has decided to use 'Machine Learning
 
 *A.Oversampling*
 
-  1.Naive Random Oversampling
+	1.Naive Random Oversampling
 
-  2.Smote
+	2.Smote
 
 *B.Undersampling*
 
-  3. ClusterCentroids
+	3.ClusterCentroids
 
 *C. Combinatorial*
 
-  4.Smoteenn
+	4.Smoteenn
 
 *D.Ensemble Classifiers*
 
-  5.RandomForest
-  
-  6.AdaBoosting
+	5.RandomForest
+
+	6.AdaBoosting
   
  Based on the following results we will choose which of these models may be the most viable to implement  
 	
@@ -34,7 +34,7 @@ a.Accuracy Score
         
 ![Naive_Oversampling](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20accuracy.PNG)
 	
-The accuracy score compares the actual outcome(y-values) from the test against the nodels' predicted values.  The acuracy score is the percentage of predictions that are correct. The accuracy score for this model is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as it is the easiest classification metric to understand however it does not reveal the underlying disribution of response values. For a deeper understanding we will examine the metrics produced by the classification report
+The accuracy score compares the actual outcome(y-values) from the test against the models' predicted values.  The acuracy score is the percentage of predictions that are correct. The accuracy score for this model is 0.655 or 66%. This model is not demonstrative of a highly accurate model. It is still useful as it is the easiest classification metric to understand however it does not reveal the underlying disribution of response values. For a deeper understanding we will examine the metrics produced by the classification report
 	
 ![Naive Precision](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/naive%20random%20classification.PNG)
 

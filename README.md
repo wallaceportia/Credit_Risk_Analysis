@@ -112,7 +112,7 @@ c.Recall Score
 
 a.Accuracy Score
 
-![Ada Boosting Classification]()
+![Ada Boosting Classification](https://github.com/wallaceportia/Credit_Risk_Analysis/blob/main/Resources_pictures/Ada_classification.PNG)
 
 b.Precision Score
 

@@ -94,29 +94,29 @@ c.Recall Score: The sensitivity score for __low risk loans is 0.57 or 57%__ and 
 
 ###### 5.Randomforest
 
-![]()
+![RandomForest Accuracy]()
 
 a.Accuracy Score
 
-![]()
+![RandomForest Classification]()
 
 b.Precision Score
 
-![]()]
+![RandomForest CM]()
 
 c.Recall Score
 
 ###### 6.AdaBoosting
 
-![]()
+![Ada Boosting Accuracy]()
 
 a.Accuracy Score
 
-![]()
+![Ada Boosting Classification]()
 
 b.Precision Score
 
-![]()
+![Ada Boosting CM]()
 
 c.Recall Score
 
